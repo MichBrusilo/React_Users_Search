@@ -55,6 +55,7 @@ class UsersList extends React.Component {
     );
   }
 }
+
 class User extends React.Component {
   render() {
     return (
