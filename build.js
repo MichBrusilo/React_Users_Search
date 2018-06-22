@@ -50,7 +50,7 @@ var App = function (_React$Component) {
 
       return React.createElement(
         "div",
-        null,
+        { className: "formstyle" },
         React.createElement(
           "form",
           { onSubmit: function onSubmit(event) {
