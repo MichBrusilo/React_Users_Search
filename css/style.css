@@ -4,3 +4,18 @@ body {
 	margin: 20px 0;
 }
 
+.allusers {
+	flex: 1;
+  	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+}
+
+.oneuser {
+	width: 100;
+	height: 100;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	align-items: center;
+}
