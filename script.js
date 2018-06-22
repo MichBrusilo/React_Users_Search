@@ -44,7 +44,7 @@ class UsersList extends React.Component {
 
   render() {
     return (
-      <div class="allusers">
+      <div className={"allusers"}>
         {this.users}
       </div>
     );
@@ -54,7 +54,7 @@ class UsersList extends React.Component {
 class User extends React.Component {
   render() {
     return (
-      <div class="oneuser">
+      <div className={"oneuser"}>
         <img src={this.props.user.avatar_url} style={{maxWidth: '100px'}}/>
         <a href={this.props.user.html_url} target="_blank">{this.props.user.login}</a>
       </div>
